@@ -11,13 +11,13 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/toponteam-packages/TPNiOS_SPM.git", from: "6.5.60")
+        .package(url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/SDK_Release/DebuggerUI/iOS/1.1.1/AnyThinkDebuggerUISDK.zip", from: "6.5.60")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkDebuggerUISDK",
-            url: "https://topon-sdk-release.oss-cn-hangzhou.aliyuncs.com/Temp/juhesdk/AnyThinkDebuggerUISDK/1.1.0/AnyThinkDebuggerUISDK.zip",
-            checksum: "033f6b241dfa0dfe57b0881d7c83fb042ec0d79123da328af6270cdfd5209737"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/SDK_Release/DebuggerUI/iOS/1.1.1/AnyThinkDebuggerUISDK.zip",
+            checksum: "b0f4566347cd25cab802a7574b6719fbabde1371409296a1c5159f70aee8b470"
         ),
         .target(
             name: "TPNDebugUISDKTarget",
