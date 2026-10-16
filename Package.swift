@@ -11,7 +11,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/SDK_Release/DebuggerUI/iOS/1.1.1/AnyThinkDebuggerUISDK.zip", from: "6.5.60")
+        .package(url: "https://github.com/toponteam-packages/TPNiOS_SPM.git", from: "6.5.60")
     ],
     targets: [
         .binaryTarget(
